@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multipurpose Foam Cleaner</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #047857, #059669);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 280px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 2rem;
+      color: #047857;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-btn {
+      background: #047857;
+      color: white;
+      border: none;
+      padding: 14px 25px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta-btn:hover {
+      background: #065f46;
+    }
+
+    /* Benefits */
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 50px 0;
+    }
+
+    .benefit {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .benefit h3 {
+      color: #047857;
+      margin-bottom: 10px;
+    }
+
+    /* Order Section */
+    .order-options {
+      background: #ecfdf5;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .order-options h2 {
+      margin-bottom: 20px;
+    }
+
+    .order-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .order-list li {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .order-list span {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .order-list button {
+      background: #047857;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .order-list button:hover {
+      background: #065f46;
+    }
+
+    /* Reviews */
+    .reviews {
+      margin-bottom: 50px;
+    }
+
+    .reviews h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .review {
+      background: white;
+      padding: 15px;
+      margin: 15px auto;
+      max-width: 700px;
+      border-left: 5px solid #047857;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #047857;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Multipurpose Foam Cleaner</h1>
+    <p>✨ Tough on stains, gentle on surfaces – Green & Fresh!</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="foam cleaner1.jpg" alt="Multipurpose Foam Cleaner">
+      <div class="hero-text">
+        <h2>Make Every Surface Shine</h2>
+        <p>Remove dirt, grease, and stains easily with our eco-friendly Multipurpose Foam Cleaner. Perfect for kitchens, bathrooms, cars, and more.</p>
+        <a href="#order"><button class="cta-btn">Order Now</button></a>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="benefit">
+        <h3>🌱 Eco-Friendly</h3>
+        <p>Safe for you and the environment – no harsh chemicals.</p>
+      </div>
+      <div class="benefit">
+        <h3>⚡ Fast Acting</h3>
+        <p>Quickly removes grease, stains, and dirt in seconds.</p>
+      </div>
+      <div class="benefit">
+        <h3>💰 Great Value</h3>
+        <p>Affordable solution for households and cars.</p>
+      </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order-options">
+      <h2>📦 Choose Your Package</h2>
+      <ul class="order-list">
+        <li>
+          <span>1 Bottle - GHC 200</span>
+          <a href="https://wa.me/233554311351?text=I%20want%20to%20order%201%20bottle%20of%20Multipurpose%20Foam%20Cleaner" target="_blank">
+            <button>Order Now</button>
+          </a>
+        </li>
+        <li>
+          <span>2 Bottles - GHC 350</span>
+          <a href="https://wa.me/233554311351?text=I%20want%20to%20order%202%20bottles%20of%20Multipurpose%20Foam%20Cleaner" target="_blank">
+            <button>Order Now</button>
+          </a>
+        </li>
+        <li>
+          <span>3 Bottles - GHC 500</span>
+          <a href="https://wa.me/233554311351?text=I%20want%20to%20order%203%20bottles%20of%20Multipurpose%20Foam%20Cleaner" target="_blank">
+            <button>Order Now</button>
+          </a>
+        </li>
+      </ul>
+      <p style="margin-top: 15px; font-weight: bold; color: #047857;">🚚 Free Delivery Nationwide</p>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+      <h2>💬 What Our Customers Say</h2>
+      <div class="review">“This cleaner worked wonders on my kitchen! Highly recommend.” – Ama, Accra</div>
+      <div class="review">“Very effective and smells fresh. Delivery was super fast!” – Kojo, Kumasi</div>
+      <div class="review">“Good value for money. My car seats look brand new!” – Efua, Cape Coast</div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>📞 Call/WhatsApp: 0554311351 / 0538096607</p>
+    <p>📍 Location: Gbawe & Hasto, Accra</p>
+    <p>© 2025 Multipurpose Foam Cleaner</p>
+  </footer>
+
+</body>
+</html>
